@@ -1,12 +1,13 @@
 import React from "react";
 import { Card, Button, Row, Col } from "antd";
 import { RocketOutlined, CloudOutlined, BugOutlined, MailOutlined } from "@ant-design/icons";
+import { useNavigate } from "react-router-dom";
 
 
 const ServicesPage = () => {
+    const navigate = useNavigate();
   return (
     <div className="bg-gray-50 min-h-screen py-16 px-6">
-      {/* Introduktion */}
       <div className="text-center max-w-3xl mx-auto">
         <h1 className="text-5xl font-bold">Vores Services</h1>
         <p className="text-xl text-gray-600 mt-4">
@@ -43,7 +44,6 @@ const ServicesPage = () => {
           </Card>
         </Col>
 
-        {/* Fejlfinding */}
         <Col xs={24} md={8}>
           <Card
             hoverable
@@ -69,7 +69,7 @@ const ServicesPage = () => {
             type="primary"
             size="large"
             className="px-6 mt-6 flex mx-auto max-w-32"
-            href="/kontakt"
+            onClick={() => navigate("/kontakt")}
             icon={<MailOutlined />}
             >
             Kontakt os

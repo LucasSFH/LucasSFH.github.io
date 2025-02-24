@@ -1,9 +1,11 @@
 import React from "react";
 import { Card, Button } from "antd";
 import { BugOutlined,CloudOutlined, MailOutlined, RocketOutlined } from "@ant-design/icons";
+import { useNavigate } from "react-router-dom";
 
 const PricesPage = () => {
     
+    const navigate = useNavigate();
   return (
     <div className="bg-gray-50 min-h-screen py-16 px-6">
       <div className="text-center max-w-3xl mx-auto">
@@ -46,7 +48,7 @@ const PricesPage = () => {
           type="primary"
           size="large"
           className="px-6 mt-6 flex mx-auto max-w-32"
-          href="/kontakt"
+          onClick={() => navigate("/kontakt")}
           icon={<MailOutlined />}
         >
           Kontakt os
