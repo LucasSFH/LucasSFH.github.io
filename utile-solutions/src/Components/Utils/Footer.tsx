@@ -20,13 +20,13 @@ const Footer = () => {
     <div className="items-start justify-between w-full md:flex md:w-auto md:order-1" id="navbar-cta">
         <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0">
         <li>
-            <a href="/services" className="block py-2 px-3 md:p-0 md:dark:hover:text-blue-500">Services</a>
+            <span onClick={() => navigate("/services")} className="block py-2 px-3 md:p-0 md:dark:hover:text-blue-500">Services</span>
         </li>
         <li>
-            <a href="/priser" className="block py-2 px-3 md:p-0 md:dark:hover:text-blue-500">Priser</a>
+            <span onClick={() => navigate("/priser")} className="block py-2 px-3 md:p-0 md:dark:hover:text-blue-500">Priser</span>
         </li>
         <li>
-            <a href="/om-os" className="block py-2 px-3 md:p-0 md:dark:hover:text-blue-500">Om</a>
+            <span onClick={() => navigate("/om-os")} className="block py-2 px-3 md:p-0 md:dark:hover:text-blue-500">Om</span>
         </li>
         </ul>
     </div>

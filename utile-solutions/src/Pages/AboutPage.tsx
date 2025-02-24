@@ -1,8 +1,10 @@
 import React from "react";
 import { Card, Button } from "antd";
 import { UserOutlined, MailOutlined } from "@ant-design/icons";
+import { useNavigate } from "react-router-dom";
 
 const AboutPage = () => {
+  const navigate = useNavigate();
   return (
     <div className="bg-gray-50 min-h-screen flex flex-col items-center py-16 px-4">
       <Card className="max-w-2xl w-full text-center shadow-lg">
@@ -42,7 +44,7 @@ const AboutPage = () => {
           type="primary"
           size="large"
           className="mt-6 flex mx-auto max-w-32"
-          href="/kontakt"
+          onClick={() => navigate("/kontakt")}
           icon={<MailOutlined />}
         >
           Kontakt os
