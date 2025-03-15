@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 const AboutPage = () => {
   const navigate = useNavigate();
   return (
-    <div className="bg-gray-50 min-h-screen flex flex-col items-center py-16 px-4">
+    <div className="bg-gray-50 min-h-screen flex flex-col items-center py-32 px-4">
       <Card className="max-w-2xl w-full text-center shadow-lg">
         <UserOutlined className="text-6xl text-blue-600 mb-4" />
         <h1 className="text-4xl font-bold">Om Os</h1>

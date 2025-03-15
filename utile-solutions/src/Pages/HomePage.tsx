@@ -23,10 +23,10 @@ const HomePage = () => {
                 </Button>
             </Col>
         </Row>
-        <Row className="h-96">
+        <Row className="py-8">
             <Col span={24} className="m-auto px-8 md:px-32">
                 <h2 className="text-4xl font-bold">Vores Tjenester</h2>
-                <Row gutter={16} className="mt-8">
+                <Row gutter={16} className="mt-8 gap-y-12">
                 <Col xs={24} sm={12} lg={8}>
                     <Card
                     hoverable

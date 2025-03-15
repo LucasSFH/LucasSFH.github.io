@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 const ServicesPage = () => {
     const navigate = useNavigate();
   return (
-    <div className="bg-gray-50 min-h-screen py-16 px-6">
+    <div className="bg-gray-50 min-h-screen py-32 px-6">
       <div className="text-center max-w-3xl mx-auto">
         <h1 className="text-5xl font-bold">Vores Services</h1>
         <p className="text-xl text-gray-600 mt-4">
