@@ -1,0 +1,13 @@
+
+{
+    "id": 1,
+    "projectName": "Dagensmad.dk",
+    "websiteUrl": "https://dagensmad.dk",
+    "logoPath": "https://dagensmad.dk/assets/DA-LOGO-2024-02.svg",
+    "shortDescription": "Er et projekt vi har bygget fra bunden. Hjemmesiden indeholder brugerinterface, mulighed for at uploade egne opskrifter, samt give anmeldelser af andres opskrifter.",
+    "description": "",
+    "backgroundImage": "../../images/cases/DagensMad/dagensmad_web.png",
+    "backgroundColor": "",
+    "textColor": "",
+    "technologyInfo": ""
+}

@@ -11,8 +11,8 @@ const AboutPage = () => {
         <UserOutlined className="text-6xl text-blue-600 mb-4" />
         <h1 className="text-4xl font-bold">Om Os</h1>
         <p className="text-lg text-gray-600 mt-2">
-          Vi er selvstændige specialister i hjemmesider, hosting og fejlfinding.  
-          Vores mål er at hjælpe små virksomheder og startups med at få en stærk digital identitet –  
+          Vi er selvstændige specialister i softwareudvkling herunder <i><b>hjemmesider, hosting og fejlfinding</b></i>.  
+          <br/>Vores mål er at hjælpe små virksomheder og startups med at få en stærk digital identitet –  
           uden besværet og de høje omkostninger.  
         </p>
       </Card>
