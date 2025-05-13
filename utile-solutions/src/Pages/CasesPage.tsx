@@ -15,7 +15,7 @@ const CasesPage = () => {
       <h1 className="mb-8 text-5xl font-bold">Cases</h1>
 
       {casesArray.map((item, index) => (
-        <Link to={item.websiteUrl} className="max-w-xl w-full" key={index}>
+        <Link to={item.websiteUrl}  className="max-w-xl w-full" key={index} target="_blank">
           <Card key={index} className="shadow-md hover:shadow-lg hover:opacity-85"
             cover={<img alt={item.projectName} src={item.backgroundImage} />}
           >
