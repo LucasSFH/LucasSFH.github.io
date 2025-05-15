@@ -26,7 +26,7 @@ const CasesPage = () => {
             <Meta title={item.projectName} description={
               <>
                 <p className="hidden sm:block">{clickedIndex === index ? (item.description !== "" ? item.description : item.shortDescription) : <>{item.shortDescription}..</>}</p>
-                <p className="block sm:hidden">{item.shortDescription}TEST</p>
+                <p className="block sm:hidden">{item.shortDescription}</p>
                 
                 <p><BulbFilled className="text-yellow-400 mr-2 mt-4" /><i><b>{item.technologyInfo}</b></i></p>     
               </>
