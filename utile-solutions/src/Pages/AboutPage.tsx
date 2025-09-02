@@ -38,7 +38,7 @@ const AboutPage = () => {
       <div className="text-center mt-16">
         <h2 className="text-3xl font-bold">Lad os tage en snak</h2>
         <p className="text-gray-600 mt-2">
-          Opgaver og projekter udarbejdes efter aftale. Kontakt mig, så finder vi en løsning, der passer dig.
+          Opgaver og projekter udarbejdes efter aftale. Kontakt os, så finder vi en løsning, der passer dig.
         </p>
         <Button
           type="primary"
